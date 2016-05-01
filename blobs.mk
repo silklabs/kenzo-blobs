@@ -1,0 +1,8 @@
+LOCAL_PATH := $(dir $(lastword $(MAKEFILE_LIST)))
+
+SYSTEM_BLOBS := $(shell find $(LOCAL_PATH)system)
+SYSTEM_BLOBS_COPY_FILES := \
+  $(foreach BLOB,$(SYSTEM_BLOBS),$(BLOB):/$(BLOB:$(LOCAL_PATH)%=%))
+
+PRODUCT_COPY_FILES += $(SYSTEM_BLOBS_COPY_FILES)
+
