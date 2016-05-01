@@ -1,0 +1,23 @@
+out/target/product/kenzo/obj/STATIC_LIBRARIES/libmincrypt_with_openssl_intermediates/../../../system/core/libmincrypt/rsa.o: \
+ bootable/recovery/mincrypt/../../../system/core/libmincrypt/rsa.c \
+ build/core/combo/include/arch/linux-arm64/AndroidConfig.h \
+ system/core/include/mincrypt/rsa.h bionic/libc/include/inttypes.h \
+ bionic/libc/include/stdint.h \
+ prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/../lib/gcc/aarch64-linux-android/4.9.x-google/include/stddef.h \
+ bionic/libc/include/machine/wchar_limits.h \
+ bionic/libc/include/sys/cdefs.h bionic/libc/include/sys/cdefs_elf.h \
+ bionic/libc/include/android/api-level.h \
+ system/core/include/mincrypt/sha.h \
+ system/core/include/mincrypt/hash-internal.h \
+ system/core/include/mincrypt/sha256.h
+ bootable/recovery/mincrypt/../../../system/core/libmincrypt/rsa.c :
+ build/core/combo/include/arch/linux-arm64/AndroidConfig.h :
+ system/core/include/mincrypt/rsa.h bionic/libc/include/inttypes.h :
+ bionic/libc/include/stdint.h :
+ prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/../lib/gcc/aarch64-linux-android/4.9.x-google/include/stddef.h :
+ bionic/libc/include/machine/wchar_limits.h :
+ bionic/libc/include/sys/cdefs.h bionic/libc/include/sys/cdefs_elf.h :
+ bionic/libc/include/android/api-level.h :
+ system/core/include/mincrypt/sha.h :
+ system/core/include/mincrypt/hash-internal.h :
+ system/core/include/mincrypt/sha256.h :

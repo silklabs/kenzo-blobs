@@ -1,0 +1,23 @@
+out/target/product/kenzo/obj/STATIC_LIBRARIES/libmincrypt_with_openssl_intermediates/../../../system/core/libmincrypt/p256_ecdsa.o: \
+ bootable/recovery/mincrypt/../../../system/core/libmincrypt/p256_ecdsa.c \
+ build/core/combo/include/arch/linux-arm64/AndroidConfig.h \
+ bionic/libc/include/string.h bionic/libc/include/sys/cdefs.h \
+ bionic/libc/include/sys/cdefs_elf.h \
+ bionic/libc/include/android/api-level.h \
+ prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/../lib/gcc/aarch64-linux-android/4.9.x-google/include/stddef.h \
+ bionic/libc/include/malloc.h bionic/libc/include/xlocale.h \
+ system/core/include/mincrypt/p256_ecdsa.h \
+ system/core/include/mincrypt/p256.h bionic/libc/include/stdint.h \
+ bionic/libc/include/machine/wchar_limits.h \
+ system/core/include/mincrypt/p256.h
+ bootable/recovery/mincrypt/../../../system/core/libmincrypt/p256_ecdsa.c :
+ build/core/combo/include/arch/linux-arm64/AndroidConfig.h :
+ bionic/libc/include/string.h bionic/libc/include/sys/cdefs.h :
+ bionic/libc/include/sys/cdefs_elf.h :
+ bionic/libc/include/android/api-level.h :
+ prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/../lib/gcc/aarch64-linux-android/4.9.x-google/include/stddef.h :
+ bionic/libc/include/malloc.h bionic/libc/include/xlocale.h :
+ system/core/include/mincrypt/p256_ecdsa.h :
+ system/core/include/mincrypt/p256.h bionic/libc/include/stdint.h :
+ bionic/libc/include/machine/wchar_limits.h :
+ system/core/include/mincrypt/p256.h :
