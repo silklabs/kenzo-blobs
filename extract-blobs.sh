@@ -49,6 +49,9 @@ done
 rm -rf app/ data-app/ ext/{jeejen,mmi} fonts/ framework/ priv-app/ media/ vendor/app/
 rm -rf vendor/{ChinaMobile,ChinaTelecom,ChinaUnicom,CmccPower,CTA,MPCS}
 rm -rf bin/ATFWD-daemon
+rm -rf bin/qfp-daemon
+rm -rf vendor/bin/fidodaemon
+rm -rf vendor/bin/mm-pp-daemon
 
 find . -name \*.apk | xargs rm -f
 find . -name \*.jar | xargs rm -f
