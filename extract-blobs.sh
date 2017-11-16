@@ -53,6 +53,9 @@ rm -rf bin/qfp-daemon
 rm -rf vendor/bin/fidodaemon
 rm -rf vendor/bin/mm-pp-daemon
 
+# This blob doesn't work, it seems to be missing a config file per logcat
+rm -rf bin/sensors.qcom
+
 find . -name \*.apk | xargs rm -f
 find . -name \*.jar | xargs rm -f
 find . -name \*.odex | xargs rm -f
